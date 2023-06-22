@@ -1,0 +1,29 @@
+.thongtin{
+	width: 570px;
+	height: 350px;
+	padding: 10px 30px;
+	margin-top: 20px;
+	background-color: #E8E8E8;
+	display: flex;
+  	flex-direction: column;
+}
+.thongtin h2 {
+  text-align: center;
+  font-size: 32px;
+}
+.thongtin input {
+  width: 468px;
+  height: 36px;
+  border: none;
+  padding: 0px 10px;
+  margin-bottom: 30px;
+}
+
+.phuongthuc label{
+	font-size: 20px;
+}
+.phuongthuc label img{
+	height: 40px;
+	width: 40px;
+}
+

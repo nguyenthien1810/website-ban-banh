@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+}
+/* Header */
+.header{
+    margin: 0;
+    padding: 0;
+    height: 130px;
+    width: 100%;
+    background:  #668cff;
+}
+img.image_logo {
+    width: 11.4%;
+    float: left;
+}
+ul.list_menu {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 85%;
+}
+ul.list_menu li{
+    float: left;
+    font-size: large;
+    margin: 18px;
+    padding: 10px;
+    line-height: 56px;
+}
+ul.list_menu li:hover{
+    background: #3333ff;
+}
+ul.list_menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+/* Banner */
+.banner{
+    height: 400px;
+    width: 100%;
+    background-image: url("../images/a.PNG");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+
+/* Main */
+.main{
+    height: 950px;
+    width: 100%;
+}
+ul.product_main{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_main li{
+    width: 20%;
+    border: 1px dashed;
+    margin: 25px;
+    float: left;
+    background:#cccccc;
+}
+ul.product_main li img{
+    width: 100%;
+    height: 250px;
+}
+p.price_product{
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+p.title_product{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+ul.product_main li a{
+    text-decoration: none;
+}
+.all-bv {
+    margin-left: 10px;
+    font-size: 30px;
+    color: black;
+    font-family: Helvetica;
+}
+.all-sp {
+    margin-left: 25px;
+    font-size: 30px;
+    color: black;
+    font-family: Helvetica;
+}
+
+
+.hethang{
+    width: 100%;
+    height: 300px;
+}
+
+
+/* Extra */
+#extra{
+    max-width: 1200px;
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 20px;
+}
+h1 {
+    padding: 20px 0px;
+    text-align: center;
+}
+ul.list li {
+    display: flex;
+    margin-bottom: 20px;
+}
+ul.list li .thumb {
+    flex: 0 0 30%;
+    padding-right: 15px;
+}
+ul.list li .thumb img {
+    max-width: 100%;
+}
+ul.list .title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3385ff;
+    display: block;
+    padding-bottom: 10px;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+ul.list li:hover .title {
+    color: #333;
+}
+ul.list .excerpt {
+    color: blue;
+    font-size: 15px;
+}
+
+
+
+/* Footer */
+
+.about{
+    width: 450px;
+    float: left;
+}
+.about p{
+    margin-top: 5px;
+    font-size: 23px;
+    color: yellow;
+}
+.contact{
+    width: 400px;
+    float: left;
+}
+.contact p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: yellow;
+    font-size: 23px;
+}
+.contact span{
+    font-size: 23px;
+    font-weight: bold;
+}
+.link{
+    width: 450px;
+    float: left;
+}
+.link p{
+    margin-top: 10px;
+    font-size: 23px;
+    transition: color 0.3s;
+}
+.link p a{
+    text-decoration: none;
+    color: yellow;
+}
+
+footer h2{
+    color: rgb(87, 175, 189);
+    margin-top: 30px;
+}
+.chung{
+    height: 280px;
+    width: 100%;
+    background: #668cff;
+    margin-top: 50px;
+}
+
+.giohang a{
+    color:#3385ff;
+}
+
+.wrapper_chitiet img{
+    width: 50%;
+    height: 400px;
+}
+
+.baiviet p{
+    margin: 10px;
+}
+
+/* Phân trang */
+ul.list_trang {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.list_trang li {
+    float: left;
+    padding: 5px 13px;
+    margin: 5px;
+    background: burlywood;
+    display: block;
+}
+ul.list_trang li a {
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
